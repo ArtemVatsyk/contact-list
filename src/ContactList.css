@@ -1,0 +1,42 @@
+.contactListMain .header input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #fff;
+    width: 165px;
+}
+
+.contactListMain .header button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    margin-right: 0px;
+    background-color: green;
+    color: #fff;
+    border: 2px solid green;
+    border-radius: 3px;
+}
+
+.contactListMain .header button:hover {
+    background-color: aquamarine;
+    border: 2px solid aquamarine;
+    cursor: pointer;
+}
+
+.contactListMain .theList li {
+    color: #333;
+    background-color: rgba(255, 255, 255, .5);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    list-style: none;
+    transition: background-color .2 ease-out;
+}
+
+.contactListMain .theList li:hover {
+    background-color: pink;
+    cursor: pointer;
+}
+
+ul.theList {
+    padding: 0;
+}
